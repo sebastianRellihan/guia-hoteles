@@ -1,0 +1,45 @@
+/* BODY */
+body {
+    background-color: #f7f3f3;
+}
+
+/* HEADER */
+.jumbotron {
+    background-color: #f9cbc7;
+    color: #333232;
+}
+
+/* MAIN */
+.hotel-card {
+    /* flex: 1 150px; */
+    padding: 10px 10px 10px 10px;
+}
+.btn {
+    background-color: #9abca7;
+    color: whitesmoke;
+    border-color: whitesmoke;
+}
+.btn:hover {
+    background-color: #629376;
+}
+
+/* FOOTER */
+footer {
+    padding: 10px 10px 0 10px;
+    margin-bottom: 0px;
+    background-color: #f9cbc7;
+    color: #333232;
+}
+    footer .container div div {
+        margin: 10px 0;
+    }
+        footer .container div div address {
+            margin: 0;
+        }
+        footer .container div div a {
+            color: #333232;
+        }
+            footer .container div div a {
+                color: black;
+            }
+
