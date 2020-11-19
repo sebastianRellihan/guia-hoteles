@@ -19,13 +19,21 @@ main {
     /* flex: 1 150px; */
     padding: 10px 10px 10px 10px;
 }
-.btn {
+.btn-outline-secondary {
     background-color: #9abca7;
     color: whitesmoke;
     border-color: whitesmoke;
 }
-.btn:hover {
+.btn-outline-secondary:hover {
     background-color: #629376;
+}
+.btn-outline-danger {
+    background-color: #b96767;
+    color: whitesmoke;
+    border-color: whitesmoke;
+}
+.btn-outline-danger:hover {
+    background-color: #bb5151;
 }
 
 /* FOOTER */

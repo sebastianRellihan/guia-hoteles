@@ -24,11 +24,10 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item"><a class="nav-link" href="./index.html">Home</a></li>
-            <li class="nav-item active"><a class="nav-link" href="#">Nosotros</a></li>
+            <li class="nav-item"><a class="nav-link" href="./about.html">Nosotros</a></li>
             <li class="nav-item"><a class="nav-link" href="#">Hoteles</a></li>
-            <li class="nav-item"><a class="nav-link" href="./contact.html">Contacto</a></li>
+            <li class="nav-item active"><a class="nav-link" href="#">Contacto</a></li>
           </ul>
-
         </div>
       </nav>
       <div class="jumbotron jumbotron-fluid">
@@ -44,11 +43,58 @@
         <nav aria-label="breadcrumb">
           <ol class="breadcrumb">
             <li class="breadcrumb-item" aria-current="page"><a href="./index.html">Home</a></li>
-            <li class="breadcrumb-item active" aria-current="page">Nosotros</li>
+            <li class="breadcrumb-item active" aria-current="page">Contacto</li>
           </ol>
         </nav>
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque eum maiores reiciendis debitis, obcaecati cum corrupti minus asperiores explicabo doloribus voluptatem recusandae, corporis quisquam hic eveniet ad deserunt in reprehenderit quia? Ipsa vel veritatis minima eius blanditiis, numquam quisquam modi inventore quasi temporibus quibusdam natus voluptas velit perferendis rerum dolorem aut expedita obcaecati nobis culpa placeat distinctio cumque aliquid. Atque iusto beatae ducimus quam ab commodi. Fuga laborum est ex suscipit rem voluptatibus illo in reiciendis deserunt odio a ipsam eligendi architecto corrupti alias animi dolorum officiis placeat, non error doloremque perspiciatis? Est ipsa dolore inventore quae similique eligendi assumenda ipsam quod optio saepe doloremque molestias itaque, repellat odio corrupti, ex praesentium? Provident dicta ut quam sunt eaque perferendis dolor. Distinctio suscipit, voluptate repellendus labore modi commodi consequatur illum iure unde! Quis reiciendis alias vero optio ab ipsum facere, id similique, ex aliquid obcaecati! Incidunt enim ipsum corporis, facere eveniet non deserunt obcaecati soluta consequuntur! Officiis repellat ipsa vel quia expedita dignissimos a qui necessitatibus tempore, vitae at omnis velit voluptate deserunt error voluptatum similique vero facilis quasi mollitia magnam incidunt! A perspiciatis fuga fugit libero quo debitis dignissimos at deserunt nesciunt est commodi consequatur, hic labore iusto? Nostrum, voluptate?
+
+        <div>
+          <h1>Dejanos tus consultas o comentarios</h1>
+
+          <form action="">
+            <div class="form-row">
+              <div class="form-group col-sm-6">
+                <label for="nombre">Nombre</label>
+                <input type="text" class="form-control" name="nombre" id="nombre" placeholder="Walter">
+              </div>
+              <div class="form-group col-sm-6">
+                <label for="apellido">Apellido</label>
+                <input type="text" class="form-control" id="apellido" name="apellido" placeholder="White">
+              </div>
+              <div class="form-group col-12">
+                <label for="email">Email</label>
+                <input type="text" class="form-control" id="email" name="email" placeholder="wwhite@meth.com">
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group col-sm-9">
+                <label for="domicilio">Domicilio</label>
+                <input type="text" class="form-control" id="domicilio" name="domicilio" placeholder="Calle falsa 123">
+              </div>
+              <div class="form-group col-sm-3">
+                <label for="provincia">Provincia:</label>
+                <select name="provincia" id="provincia" class="form-control">
+                  <option value="bsas" selected>Buenos Aires</option>
+                  <option value="mz">Mendoza</option>
+                  <option value="mi">Misiones</option>
+                  <option value="co">Córdoba</option>
+                  <option value="sf">Santa Fe</option>
+                </select>
+              </div>
+              <div class="form-group col-12">
+                <label for="comentarios">Comentarios</label>
+                <textarea name="comentarios" id="comentarios" class="form-control" rows="10"></textarea>
+              </div>
+              <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input" id="gridCheck">
+                <label class="form-check-label" for="gridCheck">Quiero recibir correos con ofertas</label>
+              </div>
+            </div>
+
+            <button type="submit" class="btn btn-outline-secondary col-2">Enviar</button>
+            <button type="reset" class="btn btn-outline-danger col-2">Resetear</button>
+          </form>
+        </div>
       </div>
     </main>
 
