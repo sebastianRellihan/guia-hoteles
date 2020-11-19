@@ -6,18 +6,29 @@ body {
 
 /* HEADER */
 .jumbotron {
-    background-color: #f9cbc7;
+    background-color: #f8e1de;
     color: #333232;
-    margin-top: 55px;
+    margin: 55px 0px 0px 0px;
+    /* padding: 25px 0 0 0;
+    height: 150px; */
 }
 
 /* MAIN */
 main {
     margin: 50px 0px;
 }
-.hotel-card {
-    /* flex: 1 150px; */
-    padding: 10px 10px 10px 10px;
+.card {
+    border: none;
+}
+/* .hotel-card {
+    flex: 1 250px;
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+} */
+.hotel-card .btn-reserva {
+    width: 100%;
+    border-radius: 0px;
 }
 .btn-outline-secondary {
     background-color: #9abca7;
@@ -51,8 +62,10 @@ footer {
         }
         footer .container div div a {
             color: #333232;
+            text-decoration: none;
         }
-            footer .container div div a {
+            footer .container div div a:hover {
+                font-size: large;
                 color: black;
             }
 
