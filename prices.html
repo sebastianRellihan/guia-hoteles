@@ -28,10 +28,11 @@
           <ul class="navbar-nav mr-auto">
             <li class="nav-item"><a class="nav-link" href="./index.html">Home</a></li>
             <li class="nav-item"><a class="nav-link" href="./about.html">Nosotros</a></li>
-            <li class="nav-item"><a class="nav-link" href="./prices.html">Precios</a></li>
+            <li class="nav-item active"><a class="nav-link" href="#">Precios</a></li>
             <li class="nav-item"><a class="nav-link" href="#">Términos y condiciones</a></li>
-            <li class="nav-item active"><a class="nav-link" href="#">Contacto</a></li>
+            <li class="nav-item"><a class="nav-link" href="./contact.html">Contacto</a></li>
           </ul>
+
         </div>
       </nav>
       <div class="jumbotron jumbotron-fluid">
@@ -47,58 +48,85 @@
         <nav aria-label="breadcrumb">
           <ol class="breadcrumb">
             <li class="breadcrumb-item" aria-current="page"><a href="./index.html">Home</a></li>
-            <li class="breadcrumb-item active" aria-current="page">Contacto</li>
+            <li class="breadcrumb-item active" aria-current="page">Precios</li>
           </ol>
         </nav>
 
-        <div>
-          <h1>Dejanos tus consultas o comentarios</h1>
-
-          <form action="">
-            <div class="form-row">
-              <div class="form-group col-sm-6">
-                <label for="nombre">Nombre</label>
-                <input type="text" class="form-control" name="nombre" id="nombre" placeholder="Walter">
-              </div>
-              <div class="form-group col-sm-6">
-                <label for="apellido">Apellido</label>
-                <input type="text" class="form-control" id="apellido" name="apellido" placeholder="White">
-              </div>
-              <div class="form-group col-12">
-                <label for="email">Email</label>
-                <input type="text" class="form-control" id="email" name="email" placeholder="wwhite@meth.com">
-              </div>
-            </div>
-
-            <div class="form-row">
-              <div class="form-group col-sm-9">
-                <label for="domicilio">Domicilio</label>
-                <input type="text" class="form-control" id="domicilio" name="domicilio" placeholder="Calle falsa 123">
-              </div>
-              <div class="form-group col-sm-3">
-                <label for="provincia">Provincia:</label>
-                <select name="provincia" id="provincia" class="form-control">
-                  <option value="bsas" selected>Buenos Aires</option>
-                  <option value="co">Córdoba</option>
-                  <option value="mz">Mendoza</option>
-                  <option value="mi">Misiones</option>
-                  <option value="sf">Santa Fe</option>
-                </select>
-              </div>
-              <div class="form-group col-12">
-                <label for="comentarios">Comentarios</label>
-                <textarea name="comentarios" id="comentarios" class="form-control" rows="10"></textarea>
-              </div>
-              <div class="form-group form-check">
-                <input type="checkbox" class="form-check-input" id="gridCheck">
-                <label class="form-check-label" for="gridCheck">Quiero recibir correos con ofertas</label>
-              </div>
-            </div>
-
-            <button type="submit" class="btn btn-outline-secondary col-2">Enviar</button>
-            <button type="reset" class="btn btn-outline-danger col-2">Resetear</button>
-          </form>
+        <div class="table-responsive">
+          <table class="table table-striped">
+            <thead class="thead-dark">
+              <th>Calidad</th>
+              <th>Buenos Aires</th>
+              <th>Córdoba</th>
+              <th>Mendoza</th>
+              <th>Misiones</th>
+              <th>Santa Fé</th>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <span class="oi oi-star"></span>
+                </td>
+                <td>$250</td>
+                <td>$175</td>
+                <td>$200</td>
+                <td>$150</td>
+                <td>$165</td>
+              </tr>
+              <tr>
+                <td>
+                  <span class="oi oi-star"></span>
+                  <span class="oi oi-star"></span>
+                </td>
+                <td>$650</td>
+                <td>$650</td>
+                <td>$700</td>
+                <td>$550</td>
+                <td>$600</td>
+              </tr>
+              <tr>
+                <td>
+                  <span class="oi oi-star"></span>
+                  <span class="oi oi-star"></span>
+                  <span class="oi oi-star"></span>
+                </td>
+                <td>$1350</td>
+                <td>$1275</td>
+                <td>$1000</td>
+                <td>$1200</td>
+                <td>$1000</td>
+              </tr>
+              <tr>
+                <td>
+                  <span class="oi oi-star"></span>
+                  <span class="oi oi-star"></span>
+                  <span class="oi oi-star"></span>
+                  <span class="oi oi-star"></span>
+                </td>
+                <td>$2750</td>
+                <td>$2200</td>
+                <td>$2500</td>
+                <td>$2000</td>
+                <td>$1900</td>
+              </tr>
+              <tr>
+                <td>
+                  <span class="oi oi-star"></span>
+                  <span class="oi oi-star"></span>
+                  <span class="oi oi-star"></span>
+                  <span class="oi oi-star"></span>
+                  <span class="oi oi-star"></span>
+                </td>
+                <td>$4500</td>
+                <td>$3400</td>
+                <td>$4000</td>
+                <td>$3000</td>
+                <td>$3200</td>
+              </tr>
+            </tbody>
+          </table>
         </div>
+
       </div>
     </main>
 
