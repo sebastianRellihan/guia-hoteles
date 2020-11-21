@@ -44,6 +44,13 @@ main {
 .btn-outline-danger:hover {
     background-color: #bb5151;
 }
+.tab-content {
+    margin-top: 20px;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: black;
+    background-color: #79d5fc;
+}
 
 /* FOOTER */
 footer {
