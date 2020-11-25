@@ -4,6 +4,11 @@ body {
     background-color: #f7f3f3;
 }
 
+/* NAVBAR */
+.navbar-dark .navbar-toggler {
+    border-color: rgba(255,255,255, 0)
+}
+
 /* HEADER */
 .jumbotron {
     background-color: #f8e1de;
@@ -16,6 +21,16 @@ body {
 /* MAIN */
 main {
     margin: 50px 0px;
+}
+.collapse-options {
+    margin-top: 20px;
+}
+.home-collapse {
+    margin: 10px 0;
+}
+.home-collapse-btn {
+    color: #333232;
+    background-color: #79d5fc;
 }
 .card {
     border: none;

@@ -49,20 +49,32 @@
             <li class="breadcrumb-item active" aria-current="page">Home</li>
           </ol>
         </nav>
-        <div class="row">
+        
+        <div class="row d-flex flex-column justify-content-around flex-sm-row align-items-center no-gutters">
+          <div class="home-collapse col col-sm-4 d-flex justify-content-center">
+            <button class="btn home-collapse-btn col col-sm-8" type="button" data-toggle="collapse" data-target="#funcion" aria-expanded="false" aria-controls="multiCollapse1">¿Cómo funciona?</button>
+          </div>
+          <div class="home-collapse col col-sm-4 d-flex justify-content-center">
+            <button class="btn home-collapse-btn col col-sm-8" type="button" data-toggle="collapse" data-target="#reserva" aria-expanded="false" aria-controls="multiCollapse2">¿Cómo reservo?</button>
+          </div>
+          <div class="home-collapse col col-sm-4 d-flex justify-content-center">
+            <button class="btn home-collapse-btn col col-sm-8" type="button" data-toggle="collapse" data-target="#pago" aria-expanded="false" aria-controls="multiCollapse3">¿Cómo pago?</button>
+          </div>
+        </div>
 
+        <div class="row collapse-options">
 
-          <div class="col-12 col-sm-4">
+          <div class="col-12 col-sm-4 collapse multi-collapse" id="funcion">
             <h4>¿Cómo funciona?</h4>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
           </div>
 
-          <div class="col-12 col-sm-4">
+          <div class="col-12 col-sm-4 collapse multi-collapse" id="reserva">
             <h4>¿Cómo reservo?</h4>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
           </div>
 
-          <div class="col-12 col-sm-4">
+          <div class="col-12 col-sm-4 collapse multi-collapse" id="pago">
             <h4>¿Cómo pago?</h4>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
           </div>
