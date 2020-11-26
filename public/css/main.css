@@ -28,9 +28,13 @@ main {
 .home-collapse {
     margin: 10px 0;
 }
-.home-collapse-btn {
+.home-collapse-btn,
+.modal-btn {
     color: #333232;
     background-color: #79d5fc;
+}
+.modal-btn {
+    margin-top: 15px;
 }
 .card {
     border: none;
